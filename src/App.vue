@@ -1,7 +1,14 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: yanan.zhao
+ * @Date: 2020-04-15 14:22:31
+ * @LastEditors: yanan.zhao
+ * @LastEditTime: 2020-04-20 17:04:34
+ -->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+     <router-view/>
   </div>
 </template>
 

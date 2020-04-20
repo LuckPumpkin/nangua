@@ -4,10 +4,19 @@
  * @Author: yanan.zhao
  * @Date: 2020-04-15 14:22:31
  * @LastEditors: yanan.zhao
- * @LastEditTime: 2020-04-17 19:05:08
+ * @LastEditTime: 2020-04-20 17:02:21
  -->
 <template>
   <div class="hello">
+    <el-container>
+      <el-header>Header</el-header>
+      <el-container>
+        <el-aside width="200px">Aside</el-aside>
+        <el-main>
+          <router-view/>
+        </el-main>
+      </el-container>
+    </el-container>
   </div>
 </template>
 
